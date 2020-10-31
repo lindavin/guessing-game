@@ -10,8 +10,6 @@ fn main() {
 
     // Set secret number;
     let secret_number = rand::thread_rng().gen_range(1, 101);
-    // Show secret number for internal check
-    println!("This is the secret number {}.", secret_number);
     loop {
         // Ask user for guess.
         println!("Please input your guess.");
